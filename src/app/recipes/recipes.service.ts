@@ -1,4 +1,5 @@
 import { Injectable } from '@angular/core';
+
 import {Recipe} from "./recipe.model";
 
 @Injectable({
@@ -34,7 +35,7 @@ export class RecipesService {
     const index = this.recipes.findIndex(recipe => recipe.id === id);
     this.recipes = [
         ...this.recipes.slice(0, index),
-        ...this.recipes.slice(index + 1, this.recipes.length)
+        ...this.recipes.slice(index + 1)
     ];
   }
 }

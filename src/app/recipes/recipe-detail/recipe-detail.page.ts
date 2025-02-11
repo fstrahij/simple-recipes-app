@@ -1,8 +1,9 @@
 import { Component, OnInit } from '@angular/core';
 import {ActivatedRoute, Router} from "@angular/router";
+import {AlertController} from "@ionic/angular";
+
 import {RecipesService} from "../recipes.service";
 import {Recipe} from "../recipe.model";
-import {AlertController} from "@ionic/angular";
 
 @Component({
   selector: 'app-recipe-detail',
