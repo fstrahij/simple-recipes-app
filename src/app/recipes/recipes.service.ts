@@ -18,6 +18,18 @@ export class RecipesService {
       title: 'Spaghetti',
       imageUrl: 'https://img.taste.com.au/_e6onvZ7/w720-h480-cfill-q80/taste/2024/03/5-ingredient-turbo-charged-spaghetti-recipe-196959-1.jpg',
       ingredients: ['Spaghetti', 'Meat', 'Tomatos']
+    },
+    {
+      id: 'r3',
+      title: 'Meatloaf',
+      imageUrl: 'https://www.allrecipes.com/thmb/r5E_9So8DMtEwFAMtWzpgc0A61Q=/0x512/filters:no_upscale():max_bytes(150000):strip_icc()/16354-easy-meatloaf-DDMFS-0034-5186-hero-4x3-30547610d0f64d2fb3c25c0cab909af6.jpg',
+      ingredients: ['Ground Beef', 'Egg', 'Onion', 'Ketchup', 'Mustard']
+    },
+    {
+      id: 'r4',
+      title: 'Pizza',
+      imageUrl: 'https://www.foodandwine.com/thmb/BK0P-VpOvPowtz-okmiaS4kTqvI=/750x0/filters:no_upscale():max_bytes(150000):strip_icc()/classic-cheese-pizza-FT-RECIPE0422-31a2c938fc2546c9a07b7011658cfd05.jpg',
+      ingredients: ['Dough', 'Flour', 'Tomato Sauce', 'Mozzarela', 'Basil']
     }
   ]
 

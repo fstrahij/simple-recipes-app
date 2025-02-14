@@ -23,12 +23,13 @@ export class RecipeDetailPage implements OnInit {
 
   ngOnInit() {
     this.activatedRoute.paramMap.subscribe(paramMap=>{
-      if(!paramMap.has('id')){
-        return;
-      }
-      let id = paramMap.get('id');
+      if(!paramMap.has('id')) this.router.navigate(['recipes']);
+
+      const id = paramMap.get('id');
 
       this.recipe = this.recipeService.getRecipe(id);
+
+      if(!Object.keys(this.recipe).length) this.router.navigate(['recipes']);
     });
   }
 
